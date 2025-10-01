@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: fikrah-ai-hub
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: OPENAI_KEY
+        value: ضع_مفتاحك_هنا
+      - key: MONGODB_URI
+        value: ضع_رابط_قاعدة_البيانات
