@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "fikrah-ai-hub",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "OPENAI_KEY": "ضع_مفتاحك_هنا",
+    "MONGODB_URI": "ضع_رابط_قاعدة_البيانات"
+  }
+}
